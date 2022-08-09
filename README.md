@@ -53,7 +53,15 @@ MAP(make a plan)은 이름에서도 알 수 있듯이 내가 세운 계획을 �
 ***
 
 <br></br>
-## 3. ERD
+## 3. 내가 맡은 기능
+
+1. JWT를 이용한 로그인 기능 
+2. 이미지 파일 S3 업로드 기능
+3. 여행 일정 CRUD 기능
+4. CI/CD 환경 구축
+
+<br></br>
+## 4. ERD
 
 <details>
    <summary>ERD 이미지</summary>
@@ -63,14 +71,14 @@ MAP(make a plan)은 이름에서도 알 수 있듯이 내가 세운 계획을 �
 ***
 
 <br></br>
-## 4. 시스템 아키텍처  
+## 5. 시스템 아키텍처  
 <details>
    <summary>아키텍처 이미지</summary>
 <img src="https://user-images.githubusercontent.com/74237301/181436941-8ef4f212-3497-432c-a297-bc6ed94ff246.JPG">
 </details>
 
 <br></br>
-## 5. 트러블 슈팅
+## 6. 트러블 슈팅
 ### 5.1. Gitub Action과 ElasticBeanstalk 연동 문제
 - 이번 프로젝트는 기본 기능들만 우선 구현하고 빠르게 배포 후 필요한 기능들을 추가하는 방향으로 진행햐였습니다. 개발과 배포가 빈번히 일어날 것으로 예상하여 Github Action과 ElasticBeanstalk를 이용하여 CI/CD 환경을 구축하고자 했습니다.
 - https://wonit.tistory.com/597 블로그 글을 참고하여 EB에 배포했지만 EB 상태가 정상적이지 않아 정상 작동하지 않는 문제가 생겼습니다. 이유는 health cheak가 제대로 이루어 지지 않고 있었습니다.
