@@ -26,7 +26,7 @@ MAP(make a plan)은 이름에서도 알 수 있듯이 내가 세운 계획을 �
 다른 사용자들과 여행 계획을 공유하며 자유롭게 소통할 수 있게 해줍니다.
 </details>
 
-<iframe id="video" width="가로" height="세로" src="/KakaoTalk_Video_2022-08-09-16-41-46.mp4" frameborder="0">
+<iframe id="video" width="가로" height="세로" src="MAP/KakaoTalk_Video_2022-08-09-16-41-46.mp4" frameborder="0">
 </iframe>
 
 
